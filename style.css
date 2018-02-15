@@ -20,3 +20,15 @@ html,body{
   margin: auto;
   background-color: rgba(0, 0, 0, 0.6);
 }
+#form-wrapper > form{
+  color: white;
+  padding: 40px;
+  font-family: 'Jolly Lodger';
+  font-size: 26px;
+  letter-spacing: 1px;
+}
+#from-wrapper > form > input, select{
+  font-family: 'Jolly Lodger';
+  font-size: 22px;
+  letter-spacing: 1px;
+}

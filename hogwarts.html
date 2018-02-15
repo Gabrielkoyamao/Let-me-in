@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jolly+Lodger">
       <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
       <div id="hogwarts-background">
         <div id="form-wrapper">
+          <form>
+            <label for="nome-bruxo">Seu Nome: </label>
+            <input type="text" id="nome-bruxo" name:"nome-bruxo">
+            <br><br>
+            Sua fam&iacute;lia tem algum trouxa ?
+            <br>
+
+            <input type="radio" name="muggle-parent" id="yes-muggle" value="yes">
+            <label for="contactChoice1">Sim</label>
+            <br>
+            <input type="radio" name="muggle-parent" value="no-muggle" value="no">
+            <label for="contactChoice2">N&atilde;o</label>
+
+            <br><br>
+            Qual elemento voc&ecirc; 	&eacute; naturalmente atraido ?
+            <br>
+            <input type="checkbox" id="air-element" name="attraction-element" value="air">
+            <label for="air-element">Ar</label>
+            <br>
+            <input type="checkbox" id="water-element" name="attraction-element" value="water">
+            <label for="air-element">&Aacute;gua</label>
+            <br>
+            <input type="checkbox" id="fire-element" name="attraction-element" value="fire">
+            <label for="air-element">Fogo</label>
+            <br><br>
+
+            Qual &eacute; sua casa favorita em Hogwarts ??
+            <select name="fav-house">
+              <option value="Gryffindor">Grifin&oacute;ria</option>
+              <option value="Hufflepuff">Lufa-Lufa</option>
+              <option value="Ravenclaw">Corvinal</option>
+              <option value="Slytherin">Sonserina</option>
+            </select>
+
+          </form>
         </div>
       </div>
     </body>
